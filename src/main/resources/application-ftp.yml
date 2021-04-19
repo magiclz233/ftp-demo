@@ -1,0 +1,19 @@
+ftp:
+  #ip
+  ip: 172.18.32.161
+  #端口
+  port: 21
+  #用户名
+  username: magic
+  #密码
+  password: 123456
+  #初始化连接数
+  initialSize: 5
+  #编码格式
+  encoding: UTF-8
+  #缓冲区
+  bufferSize: 8192
+  #是否开启
+  isopen: true
+  #当获取ftp客户端失败后的重试次数
+  retryCount: 5
